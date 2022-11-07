@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="table.css" rel="stylesheet">
+    <title>Table Demonstration</title>
+    <div>
+        <table id="Chair"> 
+            <thead>
+            <tr>
+                <th>Chair </th>
+                <th>The laid Back </th>
+                <th>The woker bee </th>
+                <th>The Chair 4/2 </th>
+                <th>Select </th>
+            </tr>
+        </thead>
+       
+    </head>
+    <body>
+        <tr>
+            <td>Width </td>
+            <td>80cm </td>
+            <td>60cm </td>
+            <td>220cm </td>
+            <td><input type="checkbox"  id="widthCheck" onclick="mywidthFunction()"></td> 
+            <!-- <p id="widthtext" style="display:none">Width is Selected!</p> -->
+               
+              
+            <br>
+        </tr>
+    
+        <tr>
+            <td>Height </td>
+            <td>180cm </td>
+            <td>160cm </td>
+            <td>120cm </td>
+            <td><input type="checkbox"  id="heightCheck" onclick="myheightFunction()"></td> 
+            <!-- <p id="heighttext" style="display:none">Height is Selected!!</p> -->
+            <br>
+        </tr>
+    
+        <tr>
+            <td>Depth </td>
+            <td>1180cm </td>
+            <td>1160cm </td>
+            <td>1220cm </td>
+            <td><input type="checkbox"  id="depthCheck" onclick="mydepthFunction()"></td> 
+            <p id="depthtext" style="display:none">Depth is Selected!!</p>
+            <br>
+        </tr>
+    
+        <tr>
+            <td>Weight </td>
+            <td>80kg </td>
+            <td>60kg </td>
+            <td>220kg </td>
+            <td><input type="checkbox"  id="weightCheck" onclick="myweightFunction()"></td> 
+            <!-- <p id="weighttext" style="display:none">Weight is Selected!</p> -->
+            <br>
+        </tr>
+    
+        
+    </table>
+
+    <table id="text_width">
+        <th>Width</th>
+    </table>
+
+    <table id="text_height">
+        <th>Height</th>
+    </table>
+
+    <table id="text_depth">
+        <th>Depth</th>
+    </table>
+
+    <table id="text_weight">
+        <th>Weight</th>
+    </table>
+
+
+    </div>
+    <div>
+        <button class="btn" id="submit" >Submit</button>
+    </div>
+
+
+    
+
+<script src="table.js"></script>
+    
+</body>
+</html>

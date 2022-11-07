@@ -1,0 +1,34 @@
+#Chair{
+    font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%
+}
+#Chair td, #Chair th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+
+  #Chair tr:nth-child(even){background-color: #f2f2f2;}
+
+#Chair tr:hover {background-color: #ddd;}
+#Chair th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+  }
+  .btn{
+    cursor: pointer;
+    background-color: blue;
+    color: black;
+    border: 0;
+    border-radius: 6px;
+    font-family: inherit;
+    padding: 8px 30px;
+    margin: 5px;
+    font-size: 14px;
+    margin-left: 45%;
+    margin-top: 10%;
+
+    }
